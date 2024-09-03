@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class MedicineListProvider extends ChangeNotifier {
 
-  final List<Medicine> _list = const [
+  List<Medicine> _list =  [
     Medicine(medicineName: 'Azithromasen', timesToTake: 3),
     Medicine(medicineName: 'Panadal', timesToTake: 3),
     Medicine(medicineName: 'Panadal', timesToTake: 3),
